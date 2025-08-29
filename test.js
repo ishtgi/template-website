@@ -1,5 +1,5 @@
 
-const words = [ "tempalte by ishtgi.", "you can change anything but try to credit me (optional).", "for github." ];
+const words = [ "template by ishtgi.", "you can change anything but try to credit me (optional).", "for github." ];
 const speedWrite = 100;
 const speedDelete = 50;
 const pause = 1000;
@@ -38,5 +38,6 @@ function type() {
     setTimeout(type, speedDelete);
   }
 }
+
 
 type();
